@@ -25,9 +25,9 @@ module.exports = {
   /**
    * Define a custom code highlighting theme.
    */
-  editorConfig: {
-    theme: "night",
-  },
+  //   editorConfig: {
+  //     theme: "night",
+  //   },
   /**
    * Path to static assets directory
    */
