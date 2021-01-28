@@ -7,8 +7,7 @@
       v-if="prop.category === 'font-size'"
       :style="{ fontSize: prop.value }"
     >
-      ${{prop.name.replace(/_/g, "-")}}
-      <span>({{prop.value}})</span>
+      ${{ prop.name.replace(/_/g, "-") }} <span>({{ prop.value }})</span>
     </div>
   </div>
 </template>

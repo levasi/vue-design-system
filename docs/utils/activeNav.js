@@ -37,7 +37,6 @@ export default {
         currentURL =
           window.location.pathname + window.location.hash.split("?")[0].replace(/%20/g, " ")
       }
-
       if (sidebar) {
         if (this.clearActiveLinks) {
           this.clearActiveLinks()
